@@ -106,7 +106,7 @@ Politely acknowledge ther fact that their message fell outside your capabilities
 
 # 3. Open Questions
 
-* I'd create separate scripts for the data generation and the workflow, to save up on API calls and token usage, as well as ad a break condition for the chatbot to shut down after a certain amount of time (usually a cutoff of 5 minutes)- This also saves token amount and makes sure we don't hit the limit, which could cause unexpected behaviors.
+* I'd create separate scripts for the data generation and the workflow, to save up on API calls and token usage, as well as add a break condition for the chatbot to shut down after a certain amount of time (usually a cutoff of 5 minutes)- This also saves token amount and makes sure we don't hit the limit, which could cause unexpected behaviors.
 * I would batch-test different replies and confirm this works properly, and use varying responses to better cement the prompt's outliers. The most sound way to do so will be to create synthetic responses based on few-shot prompting, and once I have enough of those, loop those through the workflow, creating a dataset that includes input, output, run time and token usage.
 * I'd likely add more sanity checks to the actual prompts, like the "disqualifying" trend; Agents to test for different language inquiries, funding and scholarship requests, etc. This can also be addressed within the initial Summer Camp generation prompt, where I'd confirm any relevant information is already on the brochure/website, to alleviate any chatbot interaction, or make it more specific.
 
