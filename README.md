@@ -1,7 +1,7 @@
 # Paradox Home Assignment
 This repository is the result of the home assignment, assigned by Paradox.
 
-# 0. Setup
+# Setup
 ## Function
 The get_completion function was used with the new, more capable gpt-3.5-turbo-1106, for a faster and more in-depth response and comprehesnion. 
 Temperature was set to 0.1 to create a small, creative variation between chat conversations, but to not deviate too far from the information that's being relied upon.
