@@ -93,7 +93,7 @@ _1. Read and memorize the information about your summer camp, specifically the a
 3. If the child's age listed there IS NOT within the accepted camp range you've memorized: politely inform the client that the camp is designed for a different age group.
 4. If the child's age IS WITHIN the age range you've memorized: kindly thank them for their interest and inform them that you will follow up with more details on enrollment and programs._
 
-*Where {summer_camp_info} is the information gained from the initial prompt, and {application} is the client's input for the application process.
+*Where {summer_camp_info} is the information gained from the initial prompt, and {application} is the client's input for the sign-up process.
 
 ## Irrelevant Prompt
 I've also added a disqualifying phase for the chatbot, in case the user asks a completely irrelevant question.
