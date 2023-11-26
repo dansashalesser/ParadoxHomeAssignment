@@ -1,5 +1,6 @@
 # Paradox Home Assignment
 This repository is the result of the home assignment, assigned by Paradox.
+The entire workflow can be run using the .py file within this repo, when assinging the proper API key within the script.
 
 # Setup
 ## Function
